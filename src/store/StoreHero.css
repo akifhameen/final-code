@@ -1,0 +1,20 @@
+.store__hero_main-div{
+  background-image:url(../assets/images/store.avif);
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+  width:100%;
+  height:30rem;  
+  font-family:"DM Sans";
+}
+.store__hero_main-div .store__hero_second-div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:100%;
+}
+.store__hero_second-div p{
+  color: white;
+  font-size:4rem;
+  font-weight: bold;
+}

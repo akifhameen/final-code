@@ -1,0 +1,8 @@
+.store__Details-first-div , .store__Details-second-div {
+  padding: 0 10rem;
+}
+.store__Details-third-div{
+  background-color: black;
+  margin-top: 6rem;
+  padding: 0 10rem;
+}

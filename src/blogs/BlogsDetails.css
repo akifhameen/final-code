@@ -1,0 +1,81 @@
+.blogs__main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin-top:6rem;
+  font-family:"DM Sans";
+  margin-bottom: 6rem;
+}
+.blogs__main-div .class-p1{
+  color:#D76810;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.blogs__main-div .class-p2{
+  font-size:2rem;
+  margin-top:1rem;
+  font-weight:600;
+  text-align: center;
+}
+.blogs__main-div .class-p3{
+  font-size: 1.1rem;
+  color: darkgray;
+  margin-top: 1rem;
+  text-align: center;
+}
+.blogs_card-div{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  gap:4rem;
+  flex-wrap: wrap;
+  margin-top:2rem;
+}
+.blogs_item-div{
+  border:2px solid black;
+  box-shadow: 10px 10px #D76810;
+  width:32rem;
+  height:43rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.blogs_item-div img{
+  width: 100%;
+  height: 50%;
+  object-fit:cover;
+}
+.blogs_item-div .class-p4{
+  margin-top:1rem;
+  font-size:1.3rem;
+  font-weight: 500;
+  color: #D76810;
+}
+.blogs_item-div .class-p5{
+  margin-top:0.3rem;
+  font-size:1.1rem;
+  font-weight: 500;
+  padding: 0 1rem;
+  text-align: center;
+}
+.blogs_item-div .class-p6{
+  margin-top:0.8rem;
+  font-size:1rem;
+  opacity:0.6;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+.blogs_item-div button{
+  background-color: #D76810;
+  color: white;
+  border: none;
+  width:10rem;
+  height:3rem;
+  font-size:0.9rem;
+  font-weight:500;
+  margin-top:1.5rem;
+}

@@ -1,0 +1,69 @@
+.class__main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:6rem;
+  font-family:"DM Sans";
+  margin-bottom:6rem;
+}
+.class__main-div .class-p1{
+  color:#D76810;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.class__main-div .class-p2{
+  font-size:2.5rem;
+  margin-top:1rem;
+  font-weight:600;
+}
+.class__main-div .class-p3{
+  font-size: 1.1rem;
+  color: darkgray;
+  margin-top: 1rem;
+}
+.class_card-div{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  gap:4rem;
+  flex-wrap: wrap;
+  margin-top:2rem;
+}
+.class_item-div{
+  border:2px solid black;
+  box-shadow: 10px 10px #D76810;
+  width:20rem;
+  height:20rem;
+  padding:1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.class_item-div img{
+  width:4rem;
+  margin-top:1rem;
+}
+.class_item-div .class-p4{
+  margin-top:1rem;
+  font-size:1.3rem;
+  font-weight: 500;
+}
+.class_item-div .class-p5{
+  text-align: center;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  color: darkgrey;
+  font-size:1rem;
+  font-weight: 500;
+}
+.class_item-div button{
+    background-color: #D76810;
+    color: white;
+    border: none;
+    width:10rem;
+    height:3rem;
+    font-size:0.9rem;
+    font-weight:500;
+    margin-top:1.5rem;
+}

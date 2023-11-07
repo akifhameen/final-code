@@ -1,0 +1,17 @@
+.admin_details{
+  margin: 3rem 10rem;
+  border: 2px dotted black;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.admin_details .admin-p{
+  font-size:1rem;
+  margin-top:0.5rem;
+ 
+}
+.admin_details button{
+  margin-top: 1rem;
+  margin-bottom:1rem;
+}

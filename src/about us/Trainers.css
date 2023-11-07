@@ -1,0 +1,54 @@
+.trainer__main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:6rem;
+  font-family:"DM Sans";
+}
+.trainer__main-div .p1{
+  color:#D76810;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.trainer__main-div .p2{
+  font-size:2.5rem;
+  margin-top:1rem;
+  font-weight:600;
+}
+.trainer__main-div .p3{
+  font-size: 1.1rem;
+  color: darkgray;
+  margin-top: 1rem;
+}
+.trainer-card
+{
+  display: flex;
+  flex-direction: row;
+  gap:4rem;
+}
+.trainers{
+  box-shadow: 10px 10px #D76810;
+  border:2px black;
+  border-style: solid;
+  margin-top:2rem;
+}
+.trainers img{
+  width:20rem;
+  object-fit:cover;
+  height:25rem;
+}
+.trainers .trainers-p4{
+  text-align: center;
+  margin-top:0.5rem;
+  font-size:1.3rem;
+  font-weight: 500;
+}
+.trainers .trainers-p5{
+  text-align: center;
+  margin-top:0.5rem;
+  margin-bottom:1rem;
+  color: darkgrey;
+  font-size:1rem;
+  font-weight: 500;
+}
+/* .trainers . */

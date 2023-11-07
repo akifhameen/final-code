@@ -1,0 +1,27 @@
+.addTrainer__main-div{
+  background-image: url(../assets/images/signin.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:"DM Sans";
+}
+.addTrainer__sub-div{
+  background-color:#f5f5f5;
+  box-shadow:10px 10px #D76810;
+  margin-top:8rem;
+  margin-bottom:6rem;
+  width:50rem;
+  height:30rem;
+
+}
+.addTrainer__sub-div p{
+  text-align: center;
+  margin-top:1rem;
+  font-size:1.5rem;
+  font-weight: 600;
+}

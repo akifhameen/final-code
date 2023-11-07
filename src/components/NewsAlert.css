@@ -1,0 +1,43 @@
+.alert-main-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position:fixed;
+  bottom:1rem;
+  right: 1rem;
+  background-color: blue;
+}
+.alert-main-div button{
+  width:4rem;
+  height:4rem;
+  border-radius:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom:1rem;
+  right:1rem;
+  border:2px solid #D76810 ;
+}
+
+.message_container .message{
+  border:2px solid #D76810 ;
+  background-color: rgba(255, 255, 255, 1);
+  right:4rem;
+  bottom:4rem;
+  position: absolute;
+  width:18em;
+  height:auto;
+  padding:1rem;
+  font-family: "DM Sans";
+  font-weight: 800;
+}
+.alert-main-div .messages{
+  margin-right:5rem;
+}
+.alert-main-div button img{
+  width:2.5rem;
+
+
+
+}

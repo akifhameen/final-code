@@ -1,0 +1,86 @@
+.signin__main-div{
+    background-image: url(../assets/images/signin.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:"DM Sans";
+}
+.signin__form-div{
+    background-color:#f5f5f5;
+    box-shadow:10px 10px #D76810;
+    width: 25rem;
+    height:30rem;
+    padding: 1rem;
+}
+.signin__form-div .p1{
+    text-align: center;
+    font-size:1.7rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.signin__form-div .p2{
+    font-size:1.3rem;
+    margin-top:1.5rem;
+    font-weight: 700;
+    padding: 0rem 1rem;
+}
+.signin__form-div form{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 1rem;
+    margin-top:1.5rem;
+}
+.signin__form-div .inputEmail{
+    margin-bottom:2rem;
+}
+
+.signin__form-div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:4rem;
+}
+.signin__form-div input{
+    width:100%;
+    height: 2rem;
+    margin-bottom:1rem;
+    border-width:0.1rem;
+    padding: 0rem 0.5rem;
+    border-width:0 0 0.1rem 0;
+    background-color: #f5f5f5;
+    outline: none;
+    border-color: #D76810;
+}
+.signin__form-div button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2rem;
+    width:10rem;
+    height:3rem;
+    font-size:1rem;
+    font-weight: 300;
+    color: white;
+    border:none;
+    background-color: #D76810;
+}
+.signin__main-div .p3{
+    text-align: center;
+    margin-top:1.8rem;
+}
+.signin__main-div .p3 span{
+    color: #D76810;
+    cursor: pointer;
+    
+}
+.signin__main-div .p3 span a , .signin__main-div .p3 span a:hover{
+    text-decoration: none;
+    color: #D76810;
+}

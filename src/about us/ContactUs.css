@@ -1,0 +1,56 @@
+.contact__main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:6rem;
+  font-family:"DM Sans";
+  margin-bottom:6rem;
+}
+.contact__main-div .contact-p1{
+  color:#D76810;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.contact__main-div .contact-p2{
+  font-size:2.5rem;
+  margin-top:1rem;
+  font-weight:600;
+}
+.contact__main-div .contact-p3{
+  font-size: 1.1rem;
+  color: darkgray;
+  margin-top: 1rem;
+}
+.contact__details-div{
+  display: flex;
+  flex-direction: row;
+  gap:4rem;
+}
+.contact-method{
+  box-shadow: 10px 10px #D76810;
+  border:2px black;
+  border-style: solid;
+  margin-top:2.5rem;
+  padding:2rem;
+  width:13rem;
+}
+.contact-method img{
+  width:2.5rem;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+}
+.contact-method .contact-p4{
+  text-align: center;
+  margin-top:1rem;
+  font-size:1.3rem;
+  font-weight: 500;
+}
+.contact-method .contact-p5{
+  text-align: center;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  color: darkgrey;
+  font-size:1rem;
+  font-weight: 500;
+}

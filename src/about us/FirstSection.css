@@ -1,0 +1,57 @@
+.section__main-div{
+  margin-top:6rem;
+  display: flex;
+  font-family:"DM Sans";
+  justify-content: center;
+
+
+}
+.section-img img{
+  width:30rem;
+  height:35rem;
+  object-fit: cover;
+  border: 0.3rem black;
+  border-style: solid;
+  margin-right:3rem;
+}
+.section-details{
+  padding-right:2rem;
+}
+.section-details .p1{
+  color:#D76810;
+  margin-top:3rem;
+  font-size:2.5rem;
+  font-weight: 400;
+}
+.section-details .p2{
+  color: black;
+  font-size:2rem;
+  margin-top:1.8rem;
+}
+.section-details .p3{
+  color:darkgray;
+  font-size:1rem;
+  margin-top:1.8rem;
+}
+.experience{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top:2.5rem;
+  text-align: center;
+}
+.experience .p4 , .p5{
+  color: white;
+  font-size:1.2rem;
+  font-weight:500;
+}
+.awards , .rating , .work-exp{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  gap:0.7rem;
+  background-color:#D76810;
+  width:40%;
+  height:5rem;
+}

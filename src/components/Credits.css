@@ -1,0 +1,14 @@
+.credits-div{
+ position:fixed;
+ top:7rem;
+ right: 1rem;
+ background-color: #D76810;
+ padding: 0.3rem;
+
+}
+.credits-div p{
+  font-family: "DM Sans";
+  text-align: center;
+  font-weight: 400;
+  color: white;
+}

@@ -1,0 +1,171 @@
+/* .gym__main-div{
+    padding-left: 10rem;
+    padding-right:10rem;
+} */
+.gym__details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:-5rem;
+    
+}
+.gym__details-card{
+    border-color: black;
+    border-width:2px;
+    box-sizing: border-box;
+    padding:2rem;
+    width:50rem;
+    height: 17rem;
+    margin-top:1rem;
+    border-style: solid;
+    margin-right:1.5rem;
+    background-color: white;
+
+}
+
+.gym_-details-card-first-div{
+    display: flex;
+    align-items: center;
+}
+.gym_-details-card-first-div img{
+    width:2.5rem;
+    height:2.5rem;
+}
+.gym_-details-card-first-div p{
+    /* color:#D76810; */
+    font-size:1.8rem;
+    font-family:"DM Sans";
+    font-weight: bold;
+    padding-left:1.2rem;
+}
+
+.gym_-details-card-second-div p{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-family:"DM Sans";
+    color: darkgrey;
+}
+
+.gym_-details-card-second-div a{
+    text-decoration: none;
+    margin-top:2rem;
+    font-family:"DM Sans";
+    color:#D76810;
+    font-weight: 700;
+}
+.gym_-details-card-second-div a::after{
+    content: " ->";
+}
+
+/* second part */
+
+.gym__second-main-div{
+    display: flex;
+    margin-top:6rem;
+}
+.gym__images .img1{
+    width:35rem;
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+}
+
+.gym__images .img2{
+    width:13rem;
+    margin-top: 1rem;
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+}
+.gym__images-info{
+    border-color: black;
+    border-style: solid;
+    border-width:2px;
+    background-color: #D76810;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+    width:14rem;
+    height:13rem;
+    margin-top:-6.8rem;
+    margin-left:1.5rem;
+}
+.gym__images-info .img3{
+    width:4rem;
+    height:4rem;
+}
+.gym__images-info p{
+    color:white;
+    font-family:"DM Sans";
+    text-align: center;
+    font-size:1.8rem;
+    font-weight: bold;
+    margin-top:1.5rem;
+}
+.gym__images-info-main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.gym__about-details{
+    margin-left:3.5rem;
+    padding-right:2rem;
+}
+
+.gym__about-details .p1{
+    color: #D76810;
+    font-family:"DM Sans";
+    font-weight: 600;
+    font-size:1.3rem;
+    margin-top:1rem;
+}
+
+.gym__about-details .p2{
+    font-family:"DM Sans";
+    font-size:2.5rem;
+    font-weight: bold;
+    margin-top:1rem;
+    line-height:3rem;
+}
+
+.gym__about-details .p3{
+    font-family:"DM Sans";
+    font-size:1.1rem;
+    color: darkgray;
+    margin-top:1rem;
+    margin-bottom:2rem;
+}
+.gym__about-details .p4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top:0.5rem;
+    padding-bottom:0.5rem;
+}
+.gym__about-details .p4 img{
+    width:1rem;
+    height:1rem;
+}
+
+.gym__about-details .p4 p{
+    font-family:"DM Sans";
+    font-size:1.1rem;
+    color: darkgray;
+    padding-left:1.5rem;
+    padding-bottom:0.4rem;
+}
+
+.gym__about-details .btn{
+    background-color: #D76810;
+    color: white;
+    border: none;
+    width:13rem;
+    height:4rem;
+    font-size:1rem;
+    font-weight:500;
+    margin-top:1.5rem;
+    cursor: pointer;
+}

@@ -1,0 +1,128 @@
+.packages__main-div{
+    display: flex;
+    margin-top:6rem;
+    justify-content: center;
+
+}
+
+/* first package*/
+.packages__details{
+    display: flex;
+    flex-direction: column;
+    width:60rem;
+    margin-right:1.7rem;
+}
+
+.details-p1{
+    color:#D76810;
+    font-family:"DM Sans";
+    font-size:1.3rem;
+    font-weight: 600;
+}
+.details-p2{
+    font-family:"DM Sans";
+    font-weight:600;
+    font-size:2.8rem;
+    margin-top:1.2rem;
+}
+.details-p3{
+    font-family:"DM Sans";
+    color:darkgray;
+    font-size:1.1rem;
+    margin-top:1.2rem;
+    margin-bottom:1.2rem;
+}
+.details-div .check-P{
+    display: flex;
+    align-items:center;
+    margin-bottom:1rem;
+}
+.details-div .check-P img{
+    width:1rem;
+    height:1rem;
+}
+.details-div .check-P p{
+    font-family:"DM Sans";
+    color:darkgray;
+    padding-bottom:0.5rem;
+    padding-left:1rem;
+}
+
+
+/* second package*/
+.packages__first-package{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    width:60rem;
+    margin-right:2rem;
+}
+.package-p1{
+    font-family:"DM Sans";
+    font-weight:600;
+    font-size:1.8rem;
+    margin-top:2rem;
+}
+.package-p2, .second-pack-p2{
+    font-family:"DM Sans";
+    font-weight:600;
+    color:#D76810;
+    font-size:2.2rem;
+    margin-top:1rem;
+    margin-bottom:0.8rem;
+}
+.package-p2 span, .second-pack-p2 span{
+    color: darkgray;
+    font-size:1.2rem;
+}
+.package-div, .second-div{
+    margin-top:1.5rem;
+}
+.package-div .check-P , .second-div .check-P1{
+    display: flex;
+    align-items: center;
+    margin-bottom:2rem;
+    color: darkgray;
+    font-family:"DM Sans";
+}
+.check-P p , .check-P1 p {
+    padding-left:1rem;
+    padding-bottom:0.3rem;
+}
+.package-div .check-P img{
+    width:1rem;
+    height:1rem;
+}
+.packages__first-package button , .packages__second-package button , .packages__main-div button{
+    background-color: #D76810;
+    color: white;
+    border: none;
+    width:13rem;
+    height:4rem;
+    font-size:1rem;
+    font-weight:500;
+    margin-bottom:2rem;
+    cursor: pointer;
+    margin-top:1.5rem;
+
+}
+
+
+/* third package*/
+
+.packages__second-package{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    width:60rem;
+}
+.second-pack-p1{
+    font-family:"DM Sans";
+    font-weight:600;
+    font-size:1.8rem;
+    margin-top:2rem;
+}
