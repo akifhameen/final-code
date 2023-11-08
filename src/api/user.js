@@ -8,17 +8,17 @@ export const singin = async(loginData) => {
   } catch (error) {
     console.log(error);
   }
-  return response.data;
+  return response?.data;
 };
 
 export const singup = async(signUpData) => {
   let response;
   try {
-    response = await axios.post(`${baseURL}/users/signIn`, signUpData);
+    response = await axios.post(`${baseURL}/users/signUp`, signUpData);
   } catch (error) {
     console.log(error);
   }
-  return response.data;
+  return response?.data;
 };
 
 export const enrollOrQuitClass = async(enrollmentData) => {
@@ -28,5 +28,25 @@ export const enrollOrQuitClass = async(enrollmentData) => {
   } catch (error) {
     console.log(error);
   }
-  return response.data;
+  return response?.data;
+};
+
+export const getUserByEmail = async(email) => {
+  let response;
+  try {
+    response = await axios.get(`${baseURL}/users/getUserByEmail?email=${email}`);
+  } catch (error) {
+    console.log(error);
+  }
+  return response?.data;
+};
+
+export const updateRoleByEmail = async(roleData) => {
+  let response;
+  try {
+    response = await axios.put(`${baseURL}/users/updateRoleByEmail`, roleData);
+  } catch (error) {
+    console.log(error);
+  }
+  return response?.data;
 };

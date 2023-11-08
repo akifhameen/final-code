@@ -1,8 +1,11 @@
 import React from 'react';
 import './PackagesDetails.css';
 import check from '../assets/images/check.png';
+import { useAuth } from '../authContext';
 
 function PackagesDetails() {
+  const {user} = useAuth();
+
   return (
     <div class='packages__main-div'>
       <div class='packages__details'>
@@ -42,10 +45,6 @@ function PackagesDetails() {
         <div class='package-div'>
           <div class='check-P'>
             <img src={check} alt='image' />
-            <p>Get All Courses</p>
-          </div>
-          <div class='check-P'>
-            <img src={check} alt='image' />
             <p>Group Classes</p>
           </div>
           <div class='check-P'>
@@ -61,7 +60,7 @@ function PackagesDetails() {
             <p>Free Four Towels</p>
           </div>
         </div>
-        <button>Get Started</button>
+        <button>{ user?.isAuthenticated ? 'Buy Subscription' : 'Get Started' }</button>
       </div>
       <div class='packages__second-package'>
         <p class='second-pack-p1'>Basic Packages</p>
@@ -80,14 +79,10 @@ function PackagesDetails() {
           </div>
           <div class='check-P1'>
             <img src={check} alt='image' />
-            <p>Personal Training</p>
-          </div>
-          <div class='check-P1'>
-            <img src={check} alt='image' />
             <p>Free Towel</p>
           </div>
         </div>
-        <button>Get Started</button>
+        <button>{ user?.isAuthenticated ? 'Buy Subscription' : 'Get Started' }</button>
       </div>
     </div>
   );
