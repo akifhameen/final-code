@@ -19,7 +19,7 @@ const GymDetails = () => {
       <div class='gym__details'>
         <div class='gym__details-card'>
           <div class='gym_-details-card-first-div'>
-            <img src={dumbell} alt='image' />
+            <img src={dumbell} alt='gym__details' />
             <p>Complete Gym</p>
           </div>
           <div class='gym_-details-card-second-div'>
@@ -33,7 +33,7 @@ const GymDetails = () => {
         </div>
         <div class='gym__details-card'>
           <div class='gym_-details-card-first-div'>
-            <img src={gym} alt='image' />
+            <img src={gym} alt='gym__details' />
             <p>Comfort Place</p>
           </div>
           <div class='gym_-details-card-second-div'>
@@ -46,7 +46,7 @@ const GymDetails = () => {
         </div>
         <div class='gym__details-card'>
           <div class='gym_-details-card-first-div'>
-            <img src={treadmill} alt='image' />
+            <img src={treadmill} alt='gym__details' />
             <p>Skills Trainers</p>
           </div>
           <div class='gym_-details-card-second-div'>
@@ -64,11 +64,11 @@ const GymDetails = () => {
 
       <div class='gym__second-main-div'>
         <div class='gym__images'>
-          <img src={workout1} class='img1' alt='image' />
+          <img src={workout1} class='img1' alt='gym__images' />
           <div class='gym__images-info-main'>
-            <img src={workout2} class='img2' alt='image' />
+            <img src={workout2} class='img2' alt='gym__images' />
             <div class='gym__images-info'>
-              <img src={exercise} class='img3' alt='image' />
+              <img src={exercise} class='img3' alt='gym__images' />
               <p>We Are Trusted More Than 200 Customer</p>
             </div>
           </div>
@@ -83,15 +83,15 @@ const GymDetails = () => {
             you can exercise with ease, making every visit a pleasure.
           </p>
           <div class='p4'>
-            <img src={check} alt='image' />
+            <img src={check} alt='gym__about-details' />
             <p>Ready 24/7 Personal Trainer Service</p>
           </div>
           <div class='p4'>
-            <img src={check} alt='image' />
+            <img src={check} alt='gym__about-details' />
             <p>A Hygiene & Comfortable Gym & Studio</p>
           </div>
           <div class='p4'>
-            <img src={check} alt='image' />
+            <img src={check} alt='gym__about-details' />
             <p>Most Complete Gym Equipment & Sport Class</p>
           </div>
           <button class='btn' onClick={navigateAboutUs}>

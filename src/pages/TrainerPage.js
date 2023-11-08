@@ -1,6 +1,5 @@
 import React from 'react';
 import './TrainerPage.css';
-import AdminImage from '../assets/images/add-user.png';
 import AddSchedule from '../assets/images/schedule.png';
 
 const TrainerPage = () => {

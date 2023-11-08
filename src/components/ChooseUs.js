@@ -40,21 +40,21 @@ const ChosseUs = () => {
         <div class='more-details'>
           <div class='first-div'>
             <div class='p4'>
-              <img src={check} alt='image' />
+              <img src={check} alt='more-details' />
               <p>24/7 Phone counseling services for clients</p>
             </div>
             <div class='p4'>
-              <img src={check} alt='image' />
+              <img src={check} alt='more-details' />
               <p>Really know the true needs and expectations of clients</p>
             </div>
           </div>
           <div class='second-div'>
             <div class='p4'>
-              <img src={check} alt='image' />
+              <img src={check} alt='more-details' />
               <p>Really know the true needs and expectations of clients</p>
             </div>
             <div class='p4'>
-              <img src={check} alt='image' />
+              <img src={check} alt='more-details' />
               <p>
                 All reports for clients are made simple and easy to understand
               </p>
@@ -63,7 +63,7 @@ const ChosseUs = () => {
         </div>
       </div>
       <div class='choose__second-dev'>
-        <img src={chooseUs_image} alt='image' />
+        <img src={chooseUs_image} alt='more-details' />
       </div>
     </div>
   );

@@ -1,9 +1,23 @@
 import React from 'react';
 import './BlogsDetails.css';
-import article_img from '../assets/images/articles.jpg';
+import image1 from '../assets/images/articles.jpg';
+import image2 from '../assets/images/rest-day.jpg';
+import image3 from '../assets/images/Lose-weight-without-dieting-hero.jpg';
+import image4 from '../assets/images/healthy-eating-ingredients.webp';
+import { article1, article2, article3, article4 } from './articleDetails';
+
 
 const BlogsDetails = () => {
-  const temp = [1, 2, 3, 4];
+  const temp = [0, 1, 2, 3];
+  const images = [image1, image2, image3, image4]
+  const titles = [
+    'Unlocking the Power of Functional Fitness: A Game-Changer for Your Gym Routine',
+    'The Important rest days',
+    '33 sneaky ways to lose weight',
+    'The best foods for a Healthy, Balanced diet'
+  ]
+  const articles = [article1, article2, article3, article4];
+  const catogory = ['Gym & Fitness', 'Nutrition and Wellness']
   return (
     <div class='blogs__main-div'>
       <p class='class-p1'>Read Our Blog</p>
@@ -22,19 +36,13 @@ const BlogsDetails = () => {
       <div class='blogs_card-div'>
         {temp.map((index) => (
           <div class='blogs_item-div' key={index}>
-            <img src={article_img} alt='image' />
-            <p class='class-p4'>Gym & Fitness</p>
+            <img src={images[index]} alt='alt_image' />
+            <p class='class-p4'>{index < 2 ? catogory[0] : catogory[1]}</p>
             <p class='class-p5'>
-              Unlocking the Power of Functional Fitness: A Game-Changer for Your
-              Gym Routine
+              {titles[index]}
             </p>
             <p class='class-p6'>
-              Are you tired of the same old gym routines that leave you feeling
-              bored and uninspired? It's time to supercharge your fitness
-              journey with functional training! Functional fitness is not just a
-              trend; it's a transformative approach that focuses on improving
-              your overall strength, flexibility, and endurance by mimicking
-              real-life movements.
+              {articles[index]}
             </p>
             <button>Read More</button>
           </div>

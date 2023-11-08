@@ -38,7 +38,7 @@ const SignUp = () => {
   return (
     <div class='signup__main-div'>
       <div class='signup__form-div'>
-        <img src={weights} alt='image' />
+        <img src={weights} alt='sign up' />
         <p class='p1'>Wellcome !</p>
         <p class='p2'>Sign Up</p>
         <form onSubmit={handleSubmit} method='POST'>

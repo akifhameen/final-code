@@ -15,17 +15,17 @@ const Trainers = () => {
       </p>
       <div class='trainer-card'>
         <div class='trainers'>
-          <img src={profile1} alt='image' />
+          <img src={profile1} alt='alt_image' />
           <p class='trainers-p4'>Melvin Rosario</p>
           <p class='trainers-p5'>Personal Trainer</p>
         </div>
         <div class='trainers'>
-          <img src={profile2} alt='image' />
+          <img src={profile2} alt='alt_image' />
           <p class='trainers-p4'>Emre Andrews</p>
           <p class='trainers-p5'>Personal Trainer</p>
         </div>
         <div class='trainers'>
-          <img src={profile3} alt='image' />
+          <img src={profile3} alt='alt_image' />
           <p class='trainers-p4'>Tatiana Head</p>
           <p class='trainers-p5'>Yoga Trainer</p>
         </div>
