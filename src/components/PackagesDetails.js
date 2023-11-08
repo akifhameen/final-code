@@ -39,7 +39,7 @@ function PackagesDetails() {
       <div class='packages__first-package'>
         <p class='package-p1'>Premium Packages</p>
         <p class='package-p2'>
-          $110,40<span>/month</span>
+          Rs. 20,000<span>/month</span>
         </p>
         <p>-----------------------------</p>
         <div class='package-div'>
@@ -65,7 +65,7 @@ function PackagesDetails() {
       <div class='packages__second-package'>
         <p class='second-pack-p1'>Basic Packages</p>
         <p class='second-pack-p2'>
-          $89,40<span>/month</span>
+          Rs. 10,000<span>/month</span>
         </p>
         <p>-----------------------------</p>
         <div class='second-div'>
