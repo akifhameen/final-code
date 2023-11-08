@@ -1,9 +1,17 @@
 import React from 'react';
 import './StoreSupplements.css';
-import item from '../assets/images/StoreEquipment.png';
+import item1 from '../assets/images/Treadmill.jpg';
+import item2 from '../assets/images/Bench.jpg';
+import item3 from '../assets/images/ADJUSTABLE DUMBBELL SET 24KG.jpg';
+import item4 from '../assets/images/Crosstrainer.jpg';
+import item5 from '../assets/images/Resistance Band.jpg';
 
 const StoreEquipment = () => {
-  const temp = [1, 2, 3, 4, 5];
+  const temp = [0,1,2,3,4];
+  const items = [item1,item2,item3,item4,item5];
+  const names = ['Treadmill', 'Bench', 'ADJUSTABLE DUMBBELL', 'Crosstrainer', 'Resistance Band']
+  const values = ['475,000', '195,000', '49,000', '249,000', '1,419']
+
   return (
     <div class='storeDetails__main-div'>
       <p class='storeDetails__p1'>Equipment Area</p>
@@ -20,13 +28,13 @@ const StoreEquipment = () => {
       <div class='storeDetails__card-div'>
         {temp.map((index) => (
           <div class='storeDetails__card-item' key={index}>
-            <img src={item} alt='image' />
-            <p class='storeDetails__p4'>Equipment</p>
+            <img src={items[index]} alt='image' />
+            <p class='storeDetails__p4'>{names[index]}</p>
             <p class='storeDetails__p5'>
-              Gym equipment: Specialized tools and machines designed for various
+              {names[index]}: Specialized tools and machines designed for various
               exercises and workouts to support fitness goals.
             </p>
-            <p class='storeDetails__p6'>$ 1500.00</p>
+            <p class='storeDetails__p6'>Rs. {values[index]}</p>
             <p class='storeDetails__p7'>In Stock</p>
             <button>Buy Now</button>
           </div>
