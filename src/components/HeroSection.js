@@ -29,10 +29,10 @@ const HeroSection = ({ navigation }) => {
         </div>
       </div>
       <div class='hero__image-div'>
-        <img class='img1' src={hero1} alt='image' />
+        <img class='img1' src={hero1} alt='hero__image' />
         <div class='hero__image-subDiv'>
           <div>
-            <img class='img2' src={hero2} alt='image' />
+            <img class='img2' src={hero2} alt='hero__image' />
           </div>
           <div class='hero__member-card'>
             <div>
@@ -41,7 +41,7 @@ const HeroSection = ({ navigation }) => {
                 height={50}
                 width={50}
                 style={{ paddingRight: 20 }}
-                alt='image'
+                alt='hero__image'
               />
             </div>
             <div>

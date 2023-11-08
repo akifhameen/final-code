@@ -23,7 +23,7 @@ const NewsAlert = () => {
         )}
       </div>
       <button onClick={click}>
-        <img src={target} />
+        <img src={target} alt='alert'/>
       </button>
     </div>
   );

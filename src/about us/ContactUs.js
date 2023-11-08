@@ -16,24 +16,24 @@ const ContactUs = () => {
       </p>
       <div class='contact__details-div'>
         <div class='contact-method'>
-          <img src={location} alt='image' />
+          <img src={location} alt='alt_image' />
           <p class='contact-p4'>Our Location</p>
           <p class='contact-p5'>
             No. 36, De Kretser Place, Bambalapitiya Colombo 04
           </p>
         </div>
         <div class='contact-method'>
-          <img src={call} alt='image' />
+          <img src={call} alt='alt_image' />
           <p class='contact-p4'>Phone Number</p>
           <p class='contact-p5'>tel:+94114777888</p>
         </div>
         <div class='contact-method'>
-          <img src={email} alt='image' />
+          <img src={email} alt='alt_image' />
           <p class='contact-p4'>Email Us</p>
           <p class='contact-p5'>Support@domain.com</p>
         </div>
         <div class='contact-method'>
-          <img src={clock} alt='image' />
+          <img src={clock} alt='alt_image' />
           <p class='contact-p4'>Working Hours</p>
           <p class='contact-p5'>Mon - Sat : 9.00 - 5.00</p>
         </div>

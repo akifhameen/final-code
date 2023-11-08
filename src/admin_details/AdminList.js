@@ -1,19 +1,20 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './AdminList.css';
+import { useAuth } from '../authContext';
 
 const AdminList = () => {
-  const [role1, setRole] = useState('admin');
+  const {user} = useAuth();
   return (
     <div class='admin_details'>
       <p class='admin-p'>John Doe</p>
       <p class='admin-p'>John@123.com</p>
       <div class='admin_button_class'>
-        {role1 !== 'admin' && (
+        {user?.role !== 'admin' && (
           <div>
             <button class='btn1'>Add Admin</button>
           </div>
         )}
-        {role1 === 'admin' && (
+        {user?.role === 'admin' && (
           <div>
             <button class='btn2'>Remove Admin</button>
           </div>

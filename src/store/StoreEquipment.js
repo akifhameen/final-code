@@ -28,7 +28,7 @@ const StoreEquipment = () => {
       <div class='storeDetails__card-div'>
         {temp.map((index) => (
           <div class='storeDetails__card-item' key={index}>
-            <img src={items[index]} alt='image' />
+            <img src={items[index]} alt={`store equipment${index}`} />
             <p class='storeDetails__p4'>{names[index]}</p>
             <p class='storeDetails__p5'>
               {names[index]}: Specialized tools and machines designed for various

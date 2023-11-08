@@ -31,7 +31,7 @@ const SignIn = () => {
   return (
     <div class='signin__main-div'>
       <div class='signin__form-div'>
-        <img src={weights} alt='image' />
+        <img src={weights} alt='sing in' />
         <p class='p1'>Good to see you again !</p>
         <p class='p2'>Sign In</p>
         <form onSubmit={handleSubmit} method='POST'>

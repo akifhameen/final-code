@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './AddClass.css';
 
 const AddClass = () => {
-  const [dateValue, setDateValue] = useState('');
   return (
     <div class='addClass__main-div'>
       <div class='addClass_sub-div'>
