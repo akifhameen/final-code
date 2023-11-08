@@ -3,7 +3,8 @@ import './ClassDetails.css';
 import class_img from '../assets/images/tutorial.png';
 
 const ClassDetails = () => {
-  const temp = [1, 2, 3];
+  const temp = [0, 1, 2];
+  const classes = ['Yoga Class', 'Zumba Class', 'Body Building'];
   return (
     <div class='class__main-div'>
       <p class='class-p1'>Our Classes</p>
@@ -16,7 +17,7 @@ const ClassDetails = () => {
         {temp.map((index) => (
           <div class='class_item-div' key={index}>
             <img src={class_img} alt='alt text' />
-            <p class='class-p4'>Body Building</p>
+            <p class='class-p4'>{classes[index]}</p>
             <p class='class-p5'>
               Our bodybuilding classes are designed to help you sculpt and
               strengthen your physique with specialized workouts and expert
